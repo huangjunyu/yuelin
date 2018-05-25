@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/fullscreen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/backgroundmain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="24.0"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="536.0"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="60.0"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="411.0"
+                android:background="@mipmap/backgrounditem"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="16.0"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="100.0"
+                        android:orientation="vertical" />
+
+                    <TextView
+                        android:id="@id/title"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="336.0"
+                        android:gravity="center"
+                        android:text="头痛感冒发烧"
+                        android:textColor="#ffffffff"
+                        android:textSize="50.0dip" />
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="100.0"
+                        android:orientation="vertical" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="16.0"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="132.0"
+                        android:orientation="vertical" />
+
+                    <ImageView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="75.0"
+                        android:gravity="center"
+                        android:src="@mipmap/time" />
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="11.0"
+                        android:orientation="vertical" />
+
+                    <TextView
+                        android:id="@id/time"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="163.0"
+                        android:gravity="center"
+                        android:text="999"
+                        android:textColor="#ff000000"
+                        android:textSize="44.0dip" />
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="50.0"
+                        android:gravity="center|right"
+                        android:text="分钟"
+                        android:textColor="#ff000000"
+                        android:textSize="24.0dip" />
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="104.0"
+                        android:orientation="vertical" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_marginLeft="40.0dip"
+                    android:layout_marginRight="40.0dip"
+                    android:layout_weight="1.0"
+                    android:background="@mipmap/splith"
+                    android:orientation="horizontal" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="16.0"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="121.0"
+                        android:orientation="vertical" />
+
+                    <ImageView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="97.0"
+                        android:gravity="center"
+                        android:src="@mipmap/fee" />
+
+                    <EditText
+                        android:id="@id/fee"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="163.0"
+                        android:background="#00ffffff"
+                        android:enabled="false"
+                        android:focusableInTouchMode="true"
+                        android:gravity="center"
+                        android:imeOptions="actionDone"
+                        android:maxLength="6"
+                        android:numeric="decimal"
+                        android:text="999"
+                        android:textColor="#ff000000"
+                        android:textSize="44.0dip" />
+
+                    <TextView
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="50.0"
+                        android:gravity="center|right"
+                        android:text="元"
+                        android:textColor="#ff000000"
+                        android:textSize="24.0dip" />
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="104.0"
+                        android:orientation="vertical" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="40.0"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="46.0"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:src="@mipmap/decorate" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="56.0"
+                android:orientation="vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="397.0"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="25.0"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="213.0"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@id/qrcode"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="16.0"
+                    android:gravity="center"
+                    android:src="@mipmap/qrcodepay" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="54.0"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="16.0"
+                    android:gravity="center"
+                    android:text="微信支付启动"
+                    android:textColor="#ff000000"
+                    android:textSize="28.0dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="18.0"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="76.0"
+                android:background="@mipmap/codeinput"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="21.0"
+                    android:orientation="horizontal" />
+
+                <ImageView
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="109.0"
+                    android:gravity="center"
+                    android:src="@mipmap/code" />
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="21.0"
+                    android:orientation="horizontal" />
+
+                <EditText
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="247.0"
+                    android:background="#00ffffff"
+                    android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                    android:focusableInTouchMode="true"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:lines="1"
+                    android:maxLength="8"
+                    android:textSize="36.0dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="40.0"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="127.0"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="32.0"
+                    android:orientation="horizontal" />
+
+                <ImageButton
+                    android:id="@id/enter"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="135.0"
+                    android:background="#00ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/buttonstart" />
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="63.0"
+                    android:orientation="horizontal" />
+
+                <ImageButton
+                    android:id="@id/back"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="135.0"
+                    android:background="#00ffffff"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/buttonreturn" />
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="32.0"
+                    android:orientation="horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="50.0"
+                android:orientation="horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="52.0"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/activity_item_bottom_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:text="保健预防时间为网络大数据统计分析所得，体验效果可能因为个体差异而程度不同，敬请谅解！"
+        android:textColor="@color/background_material_dark"/>
+</RelativeLayout>

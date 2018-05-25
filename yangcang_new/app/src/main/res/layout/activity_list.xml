@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/fullscreen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/backgroundmain"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="28.0"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="400.0"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="50.0"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="89.0"
+            android:background="@mipmap/itemback"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/text1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="6.0dip"
+                android:layout_marginRight="6.0dip"
+                android:gravity="center"
+                android:text="头痛感冒发烧"
+                android:textColor="#ffffffff"
+                android:textSize="52.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="30.0"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:src="@mipmap/split" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="89.0"
+            android:background="@mipmap/itemback"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/text2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="头痛感冒发烧"
+                android:textColor="#ffffffff"
+                android:textSize="52.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="30.0"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:src="@mipmap/split" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="89.0"
+            android:background="@mipmap/itemback"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/text3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="头痛感冒发烧"
+                android:textColor="#ffffffff"
+                android:textSize="52.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="30.0"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:src="@mipmap/split" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="89.0"
+            android:background="@mipmap/itemback"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/text4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="头痛感冒发烧"
+                android:textColor="#ffffffff"
+                android:textSize="52.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="30.0"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:src="@mipmap/split" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="89.0"
+            android:background="@mipmap/itemback"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/text5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="头痛感冒发烧"
+                android:textColor="#ffffffff"
+                android:textSize="52.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="30.0"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:src="@mipmap/split" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="89.0"
+            android:background="@mipmap/itemback"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/text6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="头痛感冒发烧"
+                android:textColor="#ffffffff"
+                android:textSize="52.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="30.0"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:src="@mipmap/split" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="89.0"
+            android:background="@mipmap/itemback"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/text7"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="头痛感冒发烧"
+                android:textColor="#ffffffff"
+                android:textSize="52.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="30.0"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:src="@mipmap/split" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="89.0"
+            android:background="@mipmap/itemback"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/text8"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:text="头痛感冒发烧"
+                android:textColor="#ffffffff"
+                android:textSize="52.0dip" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="50.0"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="28.0"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="127.0"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="50.0"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="410.0"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="25.0"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:paddingBottom="1dp"
+                    android:paddingTop="1dp"
+                    android:gravity="center"
+                    android:src="@mipmap/hint1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="10.0"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="65.0"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@id/prev"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="65.0"
+                    android:background="#00ffffff"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/buttonprev" />
+
+                <TextView
+                    android:id="@id/pageinfo"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="215.0"
+                    android:gravity="center"
+                    android:text="1/4"
+                    android:textColor="#ffffffff"
+                    android:textSize="32.0dip" />
+
+                <ImageButton
+                    android:id="@id/next"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="65.0"
+                    android:background="#00ffffff"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/buttonnext" />
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="5.0dip"
+                    android:layout_marginTop="20.0dip"
+                    android:layout_weight="65.0"
+                    android:orientation="horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="12.0"
+                android:orientation="horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="400.0"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5.0dip"
+                android:layout_marginTop="20.0dip"
+                android:layout_weight="135.0"
+                android:orientation="horizontal" />
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="5.0dip"
+                android:layout_marginTop="20.0dip"
+                android:layout_weight="135.0"
+                android:orientation="horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="135.0">
+
+            <ImageButton
+                android:id="@id/back"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#00ffffff"
+                android:scaleType="fitXY"
+                android:src="@drawable/buttonreturn" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="50.0"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="28.0"
+        android:orientation="horizontal" />
+</LinearLayout>

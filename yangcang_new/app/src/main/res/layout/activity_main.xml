@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/fullscreen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/backgroundmain"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        android:layout_marginTop="50.0dip"
+        android:layout_weight="5.0"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="703.0"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_marginBottom="10.0dip"
+                android:paddingBottom="1px"
+                android:layout_weight="24.0"
+                android:gravity="center"
+                android:src="@mipmap/hint" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="360.0"
+                android:background="@mipmap/backgroundpanel"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="206.0"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@id/userinfo"
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="18.0dip"
+                        android:layout_marginLeft="18.0dip"
+                        android:layout_marginTop="18.0dip"
+                        android:layout_weight="2.0"
+                        android:scaleType="fitCenter"
+                        android:gravity="center"
+                        android:src="@mipmap/userinfo" />
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.0dip"
+                            android:layout_weight="1.0"
+                            android:gravity="center"
+                            android:src="@mipmap/age" />
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.0dip"
+                            android:layout_weight="1.0"
+                            android:gravity="center"
+                            android:src="@mipmap/height" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2.0"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.0dip"
+                            android:layout_marginBottom="10.0dip"
+                            android:layout_marginTop="10.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@mipmap/backgroundinput"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@id/age"
+                                android:layout_width="0.0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_marginLeft="5.0dip"
+                                android:layout_weight="5.0"
+                                android:background="#00ffffff"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center"
+                                android:imeOptions="actionDone"
+                                android:inputType="number"
+                                android:maxLength="3"
+                                android:textSize="42.0dip" />
+
+                            <TextView
+                                android:id="@id/textView3"
+                                android:layout_width="0.0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="2.0"
+                                android:gravity="center_vertical"
+                                android:text="岁"
+                                android:textColor="#ff000000"
+                                android:textSize="36.0dip" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.0dip"
+                            android:layout_marginBottom="10.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@mipmap/backgroundinput"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@id/height"
+                                android:layout_width="0.0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_marginLeft="5.0dip"
+                                android:layout_weight="5.0"
+                                android:background="#00ffffff"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center"
+                                android:imeOptions="actionDone"
+                                android:inputType="number"
+                                android:maxLength="3"
+                                android:textSize="42.0dip" />
+
+                            <TextView
+                                android:layout_width="0.0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="3.0"
+                                android:gravity="center_vertical"
+                                android:text="cm"
+                                android:textColor="#ff000000"
+                                android:textSize="36.0dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.0dip"
+                            android:layout_weight="1.0"
+                            android:gravity="center"
+                            android:src="@mipmap/sex" />
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.0dip"
+                            android:layout_weight="1.0"
+                            android:gravity="center"
+                            android:src="@mipmap/weight" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_marginRight="10.0dip"
+                        android:layout_weight="2.0"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.0dip"
+                            android:layout_marginBottom="10.0dip"
+                            android:layout_marginTop="10.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@mipmap/backgroundinput"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@id/man0"
+                                android:layout_width="15.0dip"
+                                android:layout_height="15.0dip"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10.0dip"
+                                android:background="@mipmap/select0" />
+
+                            <Button
+                                android:id="@id/man1"
+                                android:layout_width="0.0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1.0"
+                                android:background="#00ffffff"
+                                android:text="男"
+                                android:textSize="36.0dip" />
+
+                            <ImageButton
+                                android:id="@id/woman0"
+                                android:layout_width="15.0dip"
+                                android:layout_height="15.0dip"
+                                android:layout_gravity="center"
+                                android:background="@mipmap/select1" />
+
+                            <Button
+                                android:id="@id/woman1"
+                                android:layout_width="0.0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="1.0"
+                                android:background="#00ffffff"
+                                android:text="女"
+                                android:textSize="36.0dip" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="0.0dip"
+                            android:layout_marginBottom="10.0dip"
+                            android:layout_weight="1.0"
+                            android:background="@mipmap/backgroundinput"
+                            android:orientation="horizontal">
+
+                            <EditText
+                                android:id="@id/weight"
+                                android:layout_width="0.0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_marginLeft="5.0dip"
+                                android:layout_weight="5.0"
+                                android:background="#00ffffff"
+                                android:focusableInTouchMode="true"
+                                android:gravity="center"
+                                android:imeOptions="actionDone"
+                                android:inputType="number"
+                                android:maxLength="3"
+                                android:textSize="42.0dip" />
+
+                            <TextView
+                                android:id="@id/textView2"
+                                android:layout_width="0.0dip"
+                                android:layout_height="fill_parent"
+                                android:layout_weight="2.0"
+                                android:gravity="center_vertical"
+                                android:text="kg"
+                                android:textColor="#ff000000"
+                                android:textSize="36.0dip" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.0dip"
+                    android:layout_weight="155.0"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="218.0">
+
+                        <LinearLayout
+                            android:layout_width="0.0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="54.0" />
+
+                        <LinearLayout
+                            android:layout_width="0.0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="118.0"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0.0dip"
+                                android:layout_weight="26.0" />
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0.0dip"
+                                android:layout_weight="104.0">
+
+                                <ImageButton
+                                    android:id="@id/disinfect"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_gravity="center"
+                                    android:background="#00ffffff"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/buttondisinfect" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0.0dip"
+                                android:layout_weight="26.0" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0.0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="54.0" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0.0dip"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="485.0">
+
+                        <LinearLayout
+                            android:layout_width="0.0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="183.0" />
+
+                        <LinearLayout
+                            android:layout_width="0.0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="118.0"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0.0dip"
+                                android:layout_weight="26.0" />
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0.0dip"
+                                android:layout_weight="104.0">
+
+                                <ImageButton
+                                    android:id="@id/enter"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="fill_parent"
+                                    android:layout_gravity="center"
+                                    android:background="#00ffffff"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/buttonenter" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="fill_parent"
+                                android:layout_height="0.0dip"
+                                android:layout_weight="26.0" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0.0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="183.0" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="15.0dip"
+            android:layout_weight="226.0"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="220.0"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@id/qrcode"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center"
+                    android:src="@mipmap/qrcodelogin" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@id/textView"
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_weight="24.0"
+                android:gravity="center_horizontal"
+                android:text="微信快捷登入"
+                android:textColor="#ff000000"
+                android:textSize="25.0dip" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_weight="124.0"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="54.0" />
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="118.0"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.0dip"
+                        android:layout_weight="10.0" />
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.0dip"
+                        android:layout_weight="104.0">
+
+                        <ImageButton
+                            android:id="@id/pay"
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="center"
+                            android:background="#00ffffff"
+                            android:scaleType="fitXY"
+                            android:src="@drawable/buttonpay" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0.0dip"
+                        android:layout_weight="10.0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="54.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="20.0dip"
+            android:layout_weight="2.0"
+            android:gravity="center"
+            android:text="Time:"
+            android:textColor="#ff000000"
+            android:textSize="24.0dip" />
+
+        <TextView
+            android:id="@id/time"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="6.0"
+            android:gravity="center_vertical"
+            android:text="0.0"
+            android:textColor="#ff000000"
+            android:textSize="24.0dip" />
+
+        <TextView
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:text="ID:"
+            android:textColor="#ff000000"
+            android:textSize="24.0dip" />
+
+        <TextView
+            android:id="@id/machineid"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="20.0dip"
+            android:layout_weight="6.0"
+            android:gravity="center_vertical"
+            android:text="YL01-HYK-20170901-0001"
+            android:textColor="#ff000000"
+            android:textSize="24.0dip" />
+    </LinearLayout>
+</LinearLayout>

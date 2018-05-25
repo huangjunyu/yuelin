@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_disinefect_fullscreen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="horizontal">
+
+
+    <ViewFlipper
+        android:id="@+id/activity_disinfect_flipper"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:flipInterval="2000">
+
+        <ImageView
+            android:id="@+id/disinfect0"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:src="@mipmap/disinfect0" />
+
+        <ImageView
+            android:id="@+id/disinfect1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:src="@mipmap/disinfect1" />
+
+        <ImageView
+            android:id="@+id/disinfect2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:src="@mipmap/disinfect2" />
+
+        <ImageView
+            android:id="@+id/disinfect3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:src="@mipmap/disinfect3" />
+
+    </ViewFlipper>
+
+</LinearLayout>

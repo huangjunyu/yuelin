@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/fullscreen" android:background="@mipmap/backgroundadmin" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="20.0dip" android:layout_weight="5.0">
+        <TextView android:textSize="37.0dip" android:textColor="#ff000000" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="========= System Parameter Configration =========" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="55.0dip" android:layout_marginRight="55.0dip" android:layout_weight="5.0">
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="01.氧气浓度　补偿值（针对显示做补偿）" android:layout_weight="16.0" />
+        <EditText android:textSize="24.0dip" android:id="@id/input1" android:background="@mipmap/admininput" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLength="3" android:layout_weight="3.0" android:inputType="number" android:imeOptions="actionDone" />
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="%" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:gravity="center" android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@mipmap/splitadmin" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="55.0dip" android:layout_marginRight="55.0dip" android:layout_weight="5.0">
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="02.舱内温度　补偿值（针对显示做补偿）" android:layout_weight="16.0" />
+        <EditText android:textSize="24.0dip" android:id="@id/input2" android:background="@mipmap/admininput" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLength="3" android:layout_weight="3.0" android:inputType="number" android:imeOptions="actionDone" />
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="%" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:gravity="center" android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@mipmap/splitadmin" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="55.0dip" android:layout_marginRight="55.0dip" android:layout_weight="5.0">
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="03.制氧启动延迟压力" android:layout_weight="16.0" />
+        <EditText android:textSize="24.0dip" android:id="@id/input3" android:background="@mipmap/admininput" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLength="3" android:layout_weight="3.0" android:inputType="number" android:imeOptions="actionDone" />
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="PSI" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:gravity="center" android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@mipmap/splitadmin" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="55.0dip" android:layout_marginRight="55.0dip" android:layout_weight="5.0">
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="04.制氧停止压力" android:layout_weight="16.0" />
+        <EditText android:textSize="24.0dip" android:id="@id/input4" android:background="@mipmap/admininput" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLength="3" android:layout_weight="3.0" android:inputType="number" android:imeOptions="actionDone" />
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="PSI" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:gravity="center" android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@mipmap/splitadmin" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="55.0dip" android:layout_marginRight="55.0dip" android:layout_weight="5.0">
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="05.舱内压力上限值" android:layout_weight="16.0" />
+        <EditText android:textSize="24.0dip" android:id="@id/input5" android:background="@mipmap/admininput" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLength="3" android:layout_weight="3.0" android:inputType="number" android:imeOptions="actionDone" />
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="PSI" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:gravity="center" android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@mipmap/splitadmin" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="55.0dip" android:layout_marginRight="55.0dip" android:layout_weight="5.0">
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="06.舱内压力下限值" android:layout_weight="16.0" />
+        <EditText android:textSize="24.0dip" android:id="@id/input6" android:background="@mipmap/admininput" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLength="3" android:layout_weight="3.0" android:inputType="number" android:imeOptions="actionDone" />
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="PSI" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:gravity="center" android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@mipmap/splitadmin" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="55.0dip" android:layout_marginRight="55.0dip" android:layout_weight="5.0">
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="07.累计工作时间" android:layout_weight="16.0" />
+        <EditText android:textSize="24.0dip" android:id="@id/input7" android:background="@mipmap/admininput" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLength="3" android:layout_weight="3.0" android:inputType="number" android:imeOptions="actionDone" />
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Hrs" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:gravity="center" android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@mipmap/splitadmin" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="55.0dip" android:layout_marginRight="55.0dip" android:layout_weight="5.0">
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="08.单阀工作时间" android:layout_weight="16.0" />
+        <EditText android:textSize="24.0dip" android:id="@id/input8" android:background="@mipmap/admininput" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLength="3" android:layout_weight="3.0" android:inputType="number" android:imeOptions="actionDone" />
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Sec" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:gravity="center" android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@mipmap/splitadmin" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="55.0dip" android:layout_marginRight="55.0dip" android:layout_weight="5.0">
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="09.双阀工作时间" android:layout_weight="16.0" />
+        <EditText android:textSize="24.0dip" android:id="@id/input9" android:background="@mipmap/admininput" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLength="3" android:layout_weight="3.0" android:inputType="number" android:imeOptions="actionDone" />
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Sec" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:gravity="center" android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@mipmap/splitadmin" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="55.0dip" android:layout_marginRight="55.0dip" android:layout_weight="5.0">
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="10.臭氧工作时间" android:layout_weight="16.0" />
+        <EditText android:textSize="24.0dip" android:id="@id/input10" android:background="@mipmap/admininput" android:focusableInTouchMode="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:maxLength="3" android:layout_weight="3.0" android:inputType="number" android:imeOptions="actionDone" />
+        <TextView android:textSize="24.0dip" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="Min" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:gravity="center" android:layout_width="fill_parent" android:layout_height="1.0dip" android:src="@mipmap/splitadmin" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="5.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0" />
+        <ImageButton android:id="@id/back" android:background="#00ffffff" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="65.0dip" android:src="@drawable/buttonback" android:scaleType="fitXY" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>
